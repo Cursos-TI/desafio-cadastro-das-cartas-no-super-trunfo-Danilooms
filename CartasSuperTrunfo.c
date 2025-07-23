@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    // Dados da Carta 1 – Fortaleza
+   
+  
+  // Dados da Carta 1 – Fortaleza
     char estado1 = 'B';
-    char codigo1[] = "B01";                             
-    char nome1[] = "Fortaleza";
+    char codigo1[4] = "B01";
+    char nome1[10] = "Fortaleza";
     int populacao1 = 2686612;
     float area1 = 312.35;
     float pib1 = 67.03;
@@ -12,8 +14,8 @@ int main() {
 
     // Dados da Carta 2 – São Paulo
     char estado2 = 'A';
-    char codigo2[] = "A01";
-    char nome2[] = "São Paulo";
+    char codigo2[4] = "A01";
+    char nome2[10] = "São Paulo";
     int populacao2 = 12325000;
     float area2 = 1521.11;
     float pib2 = 699.28;
